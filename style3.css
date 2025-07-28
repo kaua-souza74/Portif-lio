@@ -1,0 +1,95 @@
+* {
+    padding: 10px;
+}
+header {
+    background-color: black;
+    height: 250px;
+    
+}
+header h1 {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: #333;
+    
+}
+nav {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+nav :hover {
+    
+    color: #333;
+    transition: 0.3s;
+}
+li, a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #a58989;
+    padding: 10px 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body {
+    background-color: #333;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #a58989;
+
+}
+main h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: #333;
+}
+footer {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #a58989;
+}
+
+.projetos {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: #a58989;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
+
+
+
+.projetos table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background: #333;
+}
+
+.projetos th, .projetos td {
+    border: 1px solid #a58989;
+    padding: 0.8rem;
+    text-align: left;
+}
+
+.projetos th {
+    background: #e6f0fa;
+    color: #333;
+}
+.projetos td {
+    background: #333;
+    color: #a58989;
+}
+
+
+
